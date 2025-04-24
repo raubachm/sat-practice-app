@@ -1,0 +1,52 @@
+/* File: components/Question.css */
+.question-entry {
+  margin-bottom: 32px;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.hint-box, .explanation-box {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #f0f7ff;
+  border-left: 4px solid #4a90e2;
+}
+
+.hint-box h4, .explanation-box h4 {
+  margin-bottom: 8px;
+  color: #3a7abd;
+}
+
+.question-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.hint-button {
+  background-color: #ffb74d;
+  color: #333;
+}
+
+.hint-button:hover {
+  background-color: #ffa726;
+}
+
+.explain-button {
+  background-color: #81c784;
+  color: #333;
+}
+
+.explain-button:hover {
+  background-color: #66bb6a;
+}

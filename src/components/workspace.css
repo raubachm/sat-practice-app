@@ -1,0 +1,58 @@
+.workspace {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-workspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.start-session-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.start-session-btn:hover {
+  background-color: #3a7abd;
+  transform: scale(1.05);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  color: #666;
+}
+
+.no-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+}
+
+.no-questions p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #666;
+}
+
+.generate-question-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}

@@ -1,0 +1,143 @@
+/* File: components/StartSessionModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.start-session-modal {
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.close-button {
+  background: none;
+  color: #666;
+  font-size: 24px;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+}
+
+.user-selection {
+  padding: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.user-selection label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.user-dropdown-container {
+  display: flex;
+  gap: 8px;
+}
+
+.user-dropdown-container select {
+  flex: 1;
+}
+
+.new-user-input {
+  display: flex;
+  gap: 8px;
+}
+
+.new-user-input input {
+  flex: 1;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 200px;
+  max-height: 60vh;
+  padding: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.chat-transcript {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.chat-message {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.chat-message.user {
+  background-color: #e3f2fd;
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-message.ai {
+  background-color: #f0f0f0;
+  margin-right: auto;
+}
+
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+}
+
+.modal-footer {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
